@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table,tr,td {
+    border-collapse: collapse;
+}
+.mesa{
+    width: 800px;
+    border:solid 2px black;
+}
+
+.top {
+    width: 100%;
+}
+
+.row{
+    height: 220px;
+}
+
+ .leftcolumn{
+    background-image: url("/image.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+   width: 35%;
+} 
+
+
+.rightcolumn{
+    width: 60%;
+}
+.rayas{
+    width: 100%;
+    height: 35px ;
+}
+.rayasrojas{
+    background-color: red;   
+}
+.rightcolumn > table{
+width: 100%;
+}
+.botton{
+    width: 100%;
+}
